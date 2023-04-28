@@ -1,0 +1,306 @@
+/* HeaderSection CSS starts here */
+body{
+    background-image: url(./Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 690px;
+    background-color: #f5f5f5 ;
+    font-family: 'Itim', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#headersection{
+    width: 100%;
+    color: white;
+}
+#logodiv{
+    width: 30%;
+    display: inline-block;
+}
+#logodiv h1{
+    font-size: 17px;
+    margin-left: 15px;
+}
+#logodiv h1 span{
+    font-weight: 100;
+}
+#optiondiv{
+    display: inline-block;
+    width: 69%;
+}
+#optiondiv ul{
+    display: inline-block;
+    /* float: right; */
+    position: absolute;
+    right: 30px;
+    top: 0px;
+}
+#optiondiv ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+#Sign{
+    border: 1px solid white;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 8px;
+}
+/* HeaderSection CSS ends here */
+
+
+
+/* BodySection CSS starts here */
+#bodysection{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+#bodysection h1{
+    font-size: 53px;
+}
+#bodysection p{
+    font-size: 20px;
+    font-weight: 900px;
+    margin-top: -15px;
+}
+#bodysection ul{
+    display: inline-block;
+}
+#bodysection ul li{
+    display: inline-block;
+    font-size: 21px;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 12px 53px;
+    margin-right: 18px;
+}
+#xyz{
+    background-color: white;
+    color: #797979;
+    font-weight: 900;
+    padding: 12px 70px!important;
+}
+/* BodySection CSS ends here */
+
+
+
+/* DescriptSection CSS starts here */
+#descriptsection{
+    color: #797979;
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 6px;
+    margin-top: 125px;
+}
+#descriptsection h1{
+    font-size: 34px;
+    padding-top: 80px;
+}
+#descriptsection p{
+    font-size: 21px;
+    font-weight: 900;
+    border-top: 1px solid #797979;
+    display: inline-block;
+    padding-top: 37px;
+}
+#descriptsection img{
+    width: 100%;
+    padding-top: 45px;
+    border-radius: 6px;
+}
+/* DescriptSection CSS ends here */
+
+
+/* logosection CSS start here */
+#logosection{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#logosection div{
+    display: inline-block;
+    width: 49%;
+    margin-top: 0px
+    /* padding: 55px 4px; */
+}
+#logosection div h1{
+    font-size: 32px;
+    color: #797979;
+    font-weight: 100;
+}
+#logosection div p{
+    font-size: 17px;
+}
+#div1 i{
+    font-size: 46px;
+    border-radius: 100%;
+    background-color: #e89980;
+    color: white;
+    padding: 22px 35px;
+    margin-top: 5%;
+}
+#div2 i{
+    font-size: 46px;
+    border-radius: 100%;
+    background-color: #7fcdb8;
+    color: white;
+    padding: 20px 30px;
+    margin-top: 5%;
+
+}
+#div3 i{
+    font-size: 46px;
+    border-radius: 100%;
+    background-color: #90b0ba;
+    color: white;
+    padding: 22px 30px;
+    margin-top: 5%;
+}
+#div4 i{
+    font-size: 46px;
+    border-radius: 100%;
+    background-color: #e5cb95;
+    color: white;
+    padding: 22px 35px;
+    margin-top: 5%;
+}
+#div1{
+    margin-top: 50px;
+    border-right: 1px solid #797979;
+    line-height: 1.65em;
+}
+#div2{
+    margin-top: 50px;
+    border-bottom: 1px solid #797979;
+    line-height: 1.65em;
+}
+#div3{
+    margin-top: 50px;
+    border-top: 1px solid #797979;
+    line-height: 1.65em;
+}
+#div4{
+    margin-top: 50px;
+    border-left: 1px solid #797979;
+    line-height: 1.65em;
+}
+/* logosection CSS ends here */
+
+
+
+/* imagesection CSS starts here */
+#img{
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+#imagesection{
+    text-align: center;
+}
+#div5{
+    /* margin: 0 auto; */
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 5%;
+
+    display: inline-block;
+    width: 35%;
+    padding-top: 45px;
+    border-radius: 6px;
+    
+    
+}
+#div6{
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 5%;
+
+    display: inline-block;
+    width: 35%;
+    padding-top: 45px;
+    border-radius: 6px
+    /* size-adjust: 50px; */
+}
+.img{
+    width: 100%;
+    margin-top: -45px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+#btn{
+    color: #9aa3a9;
+    background-color: transparent;
+    font-size: 15px;
+    white-space: nowrap;
+    font-weight: 400%;
+    line-height: 3em;
+    padding: 0 2em;
+    text-align: center;
+    border: 2px solid #9aa3a9;
+    border-radius: 6px;
+}
+/* imagesection CSS ends here */
+
+
+/* footersection CSS starts here*/
+#div7{
+    background-color: #e89980;
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+    padding-top: 3%;
+    margin-bottom: 100px;
+    padding-bottom: 7%;
+}
+#div7 h1{
+    font-size: 32px;
+    font-weight: 100%;
+    opacity: 0.6;
+}
+#email{
+    display: inline-block;
+    background-color: #eba893;
+    border: none;
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3%;
+
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+#signup{
+    background-color: white;
+    color:  #e89980;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+}
+.abc{
+    text-align: center;
+    font-size: 28px;
+    color: #c6c6c6;
+}
+
+    
+#pt{
+    text-align: center;
+    color: #c6c6c6;
+    font-size: 15px;
+    /* font-weight: 400%; */
+}
